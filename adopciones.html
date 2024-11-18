@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopciones - Huella y Hogar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- Barra de Navegación -->
+  <header>
+    <nav class="barra-navegacion">
+      <ul class="menu-navegacion">
+        <li><a href="index.html">Inicio</a></li>
+        <li class="desplegable">
+          <a href="productos.html">Productos</a>
+          <ul class="sub-menu">
+            <li><a href="#alimentos">Alimentos</a></li>
+            <li><a href="#juguetes">Juguetes</a></li>
+            <li><a href="#accesorios">Accesorios</a></li>
+          </ul>
+        </li>
+        <li><a href="adopciones.html">Adopciones</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Contenido principal -->
+<main class="adopciones">
+    <!-- Columna izquierda -->
+    <div class="imagen">
+      <img src="img/img1.webp" alt="Adopción de mascotas" class="imagen-adopcion">
+    </div>
+
+    <!-- Columna central -->
+    <div class="central">
+      <h1>Adopciones</h1>
+      <section class="biografia">
+        <h2>Sobre la Adopción</h2>
+        <p class="textoParrafo">Adoptar una mascota es mucho más que llevar un animal a casa; es un acto de amor 
+            y responsabilidad que cambia vidas para siempre. Al abrir las puertas de tu hogar,
+            le ofreces a un ser que lo necesita una segunda oportunidad para vivir rodeado 
+            de cariño, cuidado y seguridad. Cada adopción es un paso hacia un mundo 
+            más compasivo, donde los animales encuentran no solo un techo, sino también un lugar en tu corazón. ¡Únete a nuestra causa y sé parte de esta misión transformadora! Juntos podemos marcar la diferencia y ofrecerles un futuro lleno de esperanza.</p>
+      </section>
+      <section class="servicios">
+        <h2>Servicios Relacionados</h2>
+        <ul>
+          <li>Asesoramiento en adopciones</li>
+          <li>Visitas previas para conocer a las mascotas</li>
+          <li>Soporte post-adopción</li>
+          <li>Recomendaciones de cuidados y entrenamiento</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Columna derecha -->
+    <div class="formulario">
+      <h2>Formulario de Adopción</h2>
+      <form id="form-adopcion">
+        <div class="campo">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombreAdopcion" name="nombreAdopcion">
+        </div>
+        <div class="campo">
+          <label for="correo">Correo Electrónico:</label>
+          <input type="email" id="correoAdopcion" name="correoAdopcion">
+        </div>
+        <div class="campo">
+          <label for="descripcion">¿Por qué deseas adoptar?</label>
+          <textarea id="descripcionAdopcion" name="descripcionAdopcion" rows="4"></textarea>
+        </div>
+        <button type="submit" >Enviar</button>
+      </form>
+    </div>
+  </main>
+ 
+  <!-- Footer -->
+  <footer class="pie-pagina">
+    <div class="contenido-pie">
+      <div class="seccion-pie">
+        <h3>Contacto</h3>
+        <p>📞 Teléfono: (123) 456-7890</p>
+        <p>✉️ Email: info@huellayhogar.com</p>
+        <p>📍 Dirección: Av. Principal #123</p>
+      </div>
+      <div class="seccion-pie">
+        <h3>Horarios</h3>
+        <p>Lunes a Viernes: 9:00 - 20:00</p>
+        <p>Sábados: 10:00 - 18:00</p>
+        <p>Domingos: 10:00 - 14:00</p>
+      </div>
+      <div class="seccion-pie">
+        <h3>Síguenos</h3>
+        <p>Facebook: /huellayhogar</p>
+        <p>Instagram: @huellayhogar</p>
+        <p>Twitter: @huellayhogar</p>
+      </div>
+    </div>
+  </footer>
+ 
+</body>
+</html>
